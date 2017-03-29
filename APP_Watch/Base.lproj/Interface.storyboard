@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="APP_Watch" customModuleProvider="target">
+                    <items>
+                        <imageView height="119" alignment="left" image="Queens-Of-the-Stone-Age-1" id="N5Z-dg-j3t"/>
+                        <button width="1" height="19" alignment="left" title="Play" id="QIS-4f-iSD"/>
+                        <button width="1" height="21" alignment="left" title="Pause" id="6i9-Xf-Ia4"/>
+                        <button width="1" height="18" alignment="left" title="Stop" id="FO7-Ip-HF9"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="25" y="12"/>
+        </scene>
+    </scenes>
+</document>
